@@ -2,7 +2,7 @@
   "game": "Grand Theft Auto VI",
   "platform": "PlayStation 5",
   "list": "the official 55 trophies, 2026-11-18",
-  "note": "Names, descriptions and grades are the official list as PlayStation publishes them (Exophase / PSNProfiles, as carried by the competition kit). Every guide is written in our own words for this entry and cites its sources. Five hidden trophies are still unsolved as of November 2026 and are marked unsolved rather than given an invented method.",
+  "note": "Names, descriptions and grades are the official list as PlayStation publishes them (Exophase / PSNProfiles, as carried by the competition kit). Every guide here is written in our own words for this entry and names its sources. Five hidden trophies are still unsolved as of November 2026 and are marked unsolved instead of being given an invented method.",
   "trophies": [
     {
       "id": 1,
@@ -12,11 +12,10 @@
       "hidden": false,
       "kind": "completion",
       "missable": false,
-      "count": null,
-      "guide": "The platinum pops the moment the other 54 trophies are all earned — there is nothing extra to do for it. Work through the roadmap in this guide (story, then the 100% checklist, then Strangers & cleanup) and it arrives last, on its own.",
+      "guide": "The platinum unlocks on its own the moment the other 54 trophies are all earned — there is no separate task for it. Work the roadmap in order (story, then the 100% checklist, then Strangers & cleanup) and it pops last.",
       "steps": [
-        "Earn the other 54 trophies in any order.",
-        "The platinum unlocks automatically when the last one pops."
+        "Earn the other 54 trophies, in any order.",
+        "The platinum pops automatically when the last one lands."
       ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
@@ -32,9 +31,10 @@
       "kind": "story",
       "missable": false,
       "chapter": "Opening mission",
-      "count": null,
-      "guide": "Story trophy: it pops when you finish the opening mission, Gone Fishing. It cannot be missed — just play the story from the start.",
-      "steps": ["Play the opening mission, Gone Fishing, to its end."],
+      "guide": "Story trophy. It unlocks when you finish the opening mission, Gone Fishing — just play the story from the start. It cannot be missed.",
+      "steps": [
+        "Play the opening mission, Gone Fishing, to the end."
+      ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
         {"site": "Push Square", "title": "GTA 6: Trophy Guide & Roadmap (WIP)", "url": "https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap"}
@@ -49,11 +49,10 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 1",
-      "count": null,
-      "guide": "Story trophy: it pops when Chapter 1 ends. Before you leave Chapter 1, do the balcony meditation with Lucia (see Positive Mental Attitude) — that is the one interaction in the chapter that may not come back.",
+      "guide": "Story trophy for reaching the end of Chapter 1. Before the chapter closes, do the balcony meditation with Lucia — it is the one Chapter 1 moment that may not come around again (see Positive Mental Attitude).",
       "steps": [
         "Play through Chapter 1.",
-        "Before the chapter ends, meditate with Lucia on the balcony at Jason's house (see Positive Mental Attitude)."
+        "Before the chapter ends, meditate with Lucia on the balcony at Jason's house."
       ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
@@ -69,9 +68,10 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 2",
-      "count": null,
-      "guide": "Story trophy: it pops when Chapter 2 ends. It cannot be missed — just keep playing the story.",
-      "steps": ["Play through Chapter 2 to its end."],
+      "guide": "Story trophy for finishing Chapter 2. It cannot be missed — keep playing the story.",
+      "steps": [
+        "Play Chapter 2 to its end."
+      ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
         {"site": "Push Square", "title": "GTA 6: Trophy Guide & Roadmap (WIP)", "url": "https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap"}
@@ -86,9 +86,10 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 3",
-      "count": null,
-      "guide": "Story trophy: it pops when Chapter 3 ends. It cannot be missed — just keep playing the story.",
-      "steps": ["Play through Chapter 3 to its end."],
+      "guide": "Story trophy for finishing Chapter 3. It cannot be missed — keep playing the story.",
+      "steps": [
+        "Play Chapter 3 to its end."
+      ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
         {"site": "Push Square", "title": "GTA 6: Trophy Guide & Roadmap (WIP)", "url": "https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap"}
@@ -103,9 +104,10 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 4",
-      "count": null,
-      "guide": "Story trophy: it pops when Chapter 4 ends. It cannot be missed — just keep playing the story.",
-      "steps": ["Play through Chapter 4 to its end."],
+      "guide": "Story trophy for finishing Chapter 4. It cannot be missed — keep playing the story.",
+      "steps": [
+        "Play Chapter 4 to its end."
+      ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
         {"site": "Push Square", "title": "GTA 6: Trophy Guide & Roadmap (WIP)", "url": "https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap"}
@@ -120,8 +122,7 @@
       "kind": "story",
       "missable": false,
       "chapter": "Final mission",
-      "count": null,
-      "guide": "Story trophy (gold): it pops when you finish the final story mission. After it, free roam stays open, so the cleanup phases of the roadmap can begin — and the 100% Completion entry appears under Progress > Stats.",
+      "guide": "Gold story trophy for completing the final mission. Once the credits roll, free roam stays open and the 100% Completion entry appears under Progress > Stats — that is when the cleanup phases begin.",
       "steps": [
         "Finish the final story mission.",
         "After the credits, keep playing in free roam for the cleanup phases."
@@ -140,9 +141,10 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 2",
-      "count": null,
-      "guide": "Story trophy: it pops when you complete the Chapter 2 mission Breakfast Run. It cannot be missed.",
-      "steps": ["Complete the mission Breakfast Run in Chapter 2."],
+      "guide": "Story trophy for completing the Chapter 2 mission Breakfast Run. It cannot be missed.",
+      "steps": [
+        "Complete the mission Breakfast Run in Chapter 2."
+      ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
         {"site": "KeenGamer", "title": "GTA 6 Trophy Guide & Platinum Roadmap – All 55 Trophies", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
@@ -157,9 +159,10 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 3",
-      "count": null,
-      "guide": "Story trophy: it pops when you complete the Chapter 3 mission The Cartel Heist. It cannot be missed.",
-      "steps": ["Complete the mission The Cartel Heist in Chapter 3."],
+      "guide": "Story trophy for completing the Chapter 3 mission The Cartel Heist. It cannot be missed.",
+      "steps": [
+        "Complete the mission The Cartel Heist in Chapter 3."
+      ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
         {"site": "KeenGamer", "title": "GTA 6 Trophy Guide & Platinum Roadmap – All 55 Trophies", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
@@ -174,9 +177,10 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 4",
-      "count": null,
-      "guide": "Story trophy: it pops when you complete the Chapter 4 mission Child's Play. It cannot be missed.",
-      "steps": ["Complete the mission Child's Play in Chapter 4."],
+      "guide": "Story trophy for completing the Chapter 4 mission Child's Play. It cannot be missed.",
+      "steps": [
+        "Complete the mission Child's Play in Chapter 4."
+      ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
         {"site": "KeenGamer", "title": "GTA 6 Trophy Guide & Platinum Roadmap – All 55 Trophies", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
@@ -191,9 +195,10 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 4",
-      "count": null,
-      "guide": "Story trophy: it pops when you complete the Chapter 4 mission Headliners. It cannot be missed.",
-      "steps": ["Complete the mission Headliners in Chapter 4."],
+      "guide": "Story trophy for completing the Chapter 4 mission Headliners. It cannot be missed.",
+      "steps": [
+        "Complete the mission Headliners in Chapter 4."
+      ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
         {"site": "KeenGamer", "title": "GTA 6 Trophy Guide & Platinum Roadmap – All 55 Trophies", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
@@ -208,9 +213,10 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 4",
-      "count": null,
-      "guide": "Story trophy: it pops when you complete the Chapter 4 mission VCIA Takedown. It cannot be missed.",
-      "steps": ["Complete the mission VCIA Takedown in Chapter 4."],
+      "guide": "Story trophy for completing the Chapter 4 mission VCIA Takedown. It cannot be missed.",
+      "steps": [
+        "Complete the mission VCIA Takedown in Chapter 4."
+      ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
         {"site": "KeenGamer", "title": "GTA 6 Trophy Guide & Platinum Roadmap – All 55 Trophies", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
@@ -225,9 +231,10 @@
       "kind": "story",
       "missable": false,
       "chapter": "Chapter 5",
-      "count": null,
-      "guide": "Story trophy: it pops when you complete the Chapter 5 mission Operation Savage Glory. It cannot be missed.",
-      "steps": ["Complete the mission Operation Savage Glory in Chapter 5."],
+      "guide": "Story trophy for completing the Chapter 5 mission Operation Savage Glory. It cannot be missed.",
+      "steps": [
+        "Complete the mission Operation Savage Glory in Chapter 5."
+      ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
         {"site": "KeenGamer", "title": "GTA 6 Trophy Guide & Platinum Roadmap – All 55 Trophies", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
@@ -241,14 +248,12 @@
       "hidden": false,
       "kind": "completion",
       "missable": false,
-      "count": null,
-      "guide": "The hardest trophy in the set: reach 100% completion on the in-game checklist (Progress > Stats > 100% Completion, which appears after the story). You do not need everything — the checklist asks for selected portions only, listed in the table under the roadmap above. Most of it is robberies and collectibles; the long poles are the 42 Shooting Range gold medals, the 42 Drone Time Trials, 300 stunts and 70 of the 80 Challenges. Everything you did before the ending already counts.",
+      "guide": "The biggest grind in the set: reach 100% completion (Progress > Stats > 100% Completion, which appears after the story). Only selected portions are required — the roadmap table above lists them. The slow parts are the 42 Shooting Range gold medals, the 42 Drone Time Trials, 300 stunts and 70 of the 80 Challenges. Everything you did before the ending already counts toward it.",
       "steps": [
         "Finish the story, then open Progress > Stats > 100% Completion.",
-        "Work the checklist category by category; skip anything already past its required number.",
-        "Finish the robberies first (39 Gang Operations, 22 Bank Jobs, 7 Payday Loan Jobs, 8 bank vaults).",
-        "Clear the 42 Shooting Range gold medals and the 42 Drone Time Trials.",
-        "Complete 70 of the 80 Challenges — skip the ten nastiest."
+        "Clear the robberies first: 39 Gang Operations, 22 Bank Jobs, 7 Payday Loan Jobs, 8 bank vaults.",
+        "Earn all 42 Shooting Range gold medals and finish all 42 Drone Time Trials.",
+        "Complete 70 of the 80 Challenges — leave the ten hardest for last."
       ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
@@ -265,10 +270,10 @@
       "kind": "activity",
       "missable": false,
       "count": 250,
-      "guide": "Complete any 250 of the 397 stunts across Leonida — jumps, under-bridge flights, Knife Flights and base jumps. Stunts are counted by type, so vary what you do; the 100% checklist wants 300 of the 397, so keep going past this trophy if you are chasing A Long Road.",
+      "guide": "Land any 250 of the 397 stunts across Leonida — jumps, under-bridge flights, Knife Flights and base jumps. Stunts are counted by type, so mix them up; the 100% checklist wants 300 of 397, so keep going past this trophy if you are chasing A Long Road.",
       "steps": [
         "Attempt stunts as you travel: jumps, under-bridge flights, Knife Flights, base jumps.",
-        "Track the count in Progress > Stats; 250 of 397 is enough."
+        "Track the count in Progress > Stats — 250 of 397 is enough."
       ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
@@ -284,7 +289,7 @@
       "kind": "activity",
       "missable": false,
       "count": 9,
-      "guide": "Try all nine activity types at least once: fishing, hunting, golf, the shooting range, pool, basketball, a video game, a race and a stunt. None of them needs to be won or finished — one try each is enough, so fold this into the story: fish with Cal, hunt with Bret, and play a round of golf when the chance appears.",
+      "guide": "Try each of the nine activity types once: fishing, hunting, golf, the shooting range, pool, basketball, a video game, a race and a stunt. Nothing needs to be won or finished — one try each is enough, so fold it into the story: fish with Cal, hunt with Bret, and play golf when the chance comes up.",
       "steps": [
         "Try one of each: fishing, hunting, golf, shooting range, pool, basketball, a video game, a race, a stunt."
       ],
@@ -302,7 +307,7 @@
       "kind": "activity",
       "missable": false,
       "count": 42,
-      "guide": "Earn gold in all 42 Shooting Range challenges across the 12 ranges. This is one of the two pure-skill grinds in the set (the other is the drone time trials) and it is also required in full for 100% completion, so there is no shortcut: practise each range's challenge until the gold time or score lands, and use the range's own weapons rather than bringing your favourites.",
+      "guide": "Earn a gold medal in every one of the 42 Shooting Range challenges, spread over 12 ranges. It is one of the two pure-skill grinds here (the other is the drone time trials) and 100% completion needs all 42 as well, so there is no way around it: repeat each range's challenge until the gold mark lands, and shoot with the weapons the range hands you.",
       "steps": [
         "Visit all 12 Shooting Ranges.",
         "Earn a gold medal in each of the 42 challenges."
@@ -321,7 +326,7 @@
       "kind": "activity",
       "missable": false,
       "count": 14,
-      "guide": "Win a Top Fun drone race at each of the 14 locations. Note the difference from the 100% checklist: the checklist wants all 42 Drone Time Trials completed, while this trophy wants one race win per location — winning the races is the quicker of the two, so do the wins first and mop up the time trials during the 100% phase.",
+      "guide": "Win a Top Fun drone race at each of the 14 locations. Note the difference from the 100% checklist: the checklist wants all 42 Drone Time Trials finished, while this trophy wants one race win per location. The wins are the quicker half, so take them first and clear the time trials during the 100% phase.",
       "steps": [
         "Find the Top Fun drone races at all 14 locations.",
         "Win one race at each location."
@@ -340,7 +345,7 @@
       "kind": "activity",
       "missable": false,
       "count": 20,
-      "guide": "Win 20 different races out of the 40 available. Different races count — winning the same race twice does not. The 100% checklist wants 30 race wins, so keep racing past this trophy.",
+      "guide": "Win 20 different races out of the 40 on offer. Only different races count — winning the same one twice does not. The 100% checklist wants 30 race wins, so keep racing past this trophy.",
       "steps": [
         "Enter races across Leonida and win 20 different ones."
       ],
@@ -357,8 +362,7 @@
       "hidden": false,
       "kind": "activity",
       "missable": false,
-      "count": null,
-      "guide": "Beat Cal in a fishing challenge. His questline starts in Chapter 1 — take the fishing missions as they come and the challenge will arrive on its own. Fishing also counts toward Master of None, so this is a two-for-one stop.",
+      "guide": "Beat Cal in a fishing challenge. His questline opens in Chapter 1 — take the fishing missions as they come and the challenge will turn up by itself. Fishing also counts toward Master of None, so this is two trophies for one stop.",
       "steps": [
         "Start Cal's questline in Chapter 1.",
         "Take his fishing challenge and beat him."
@@ -376,8 +380,7 @@
       "hidden": false,
       "kind": "activity",
       "missable": false,
-      "count": null,
-      "guide": "Beat any one of the four video games — three of them are on the TV at home. Any single win is enough, so pick the game you are best at and finish it once. The 100% checklist wants all four played, but only this trophy needs one beaten.",
+      "guide": "Beat any one of the four video games — three of them are on the TV at home. A single win is enough, so pick the game you are best at and finish it once. The 100% checklist wants all four played, but only this trophy needs one beaten.",
       "steps": [
         "Play any of the four video games (three are on the TV at home).",
         "Beat one of them."
@@ -396,7 +399,7 @@
       "kind": "side",
       "missable": false,
       "count": 5,
-      "guide": "Finish all five of Andy's quests, then his final mission. Andy's strand is Lucia-only and starts in Chapter 3 — if you are playing as Jason, switch to Lucia to pick his missions up.",
+      "guide": "Finish all five of Andy's quests, then his final mission. Andy's strand is Lucia-only and opens in Chapter 3 — if you are playing as Jason, switch to Lucia to pick his missions up.",
       "steps": [
         "As Lucia, from Chapter 3, take Andy's quests.",
         "Complete all five, then his final mission."
@@ -415,7 +418,7 @@
       "kind": "side",
       "missable": false,
       "count": 7,
-      "guide": "Clear all seven shipwrecks for Kenton, then his final mission. His strand starts in Chapter 1 and runs on diving and salvage, so take it steadily as you explore the coast. Kenton goes quiet for a while mid-story — he comes back, so do not worry if his missions pause.",
+      "guide": "Clear all seven shipwrecks for Kenton, then his final mission. His strand opens in Chapter 1 and runs on diving and salvage, so work it steadily as you explore the coast. Kenton goes quiet for a while mid-story — he comes back, so do not worry if his missions pause.",
       "steps": [
         "From Chapter 1, take Kenton's shipwreck salvage missions.",
         "Clear all seven wrecks, then his final mission."
@@ -434,7 +437,7 @@
       "kind": "side",
       "missable": false,
       "count": 5,
-      "guide": "Finish all five of Billy's quests at the Thrillbilly Mud Club, then his final mission. His strand starts in Chapter 2 and is built around mud racing and off-road chaos — take his missions whenever the club icon appears.",
+      "guide": "Finish all five of Billy's quests at the Thrillbilly Mud Club, then his final mission. His strand opens in Chapter 2 and is built around mud racing and off-road chaos — take his missions whenever the club icon shows up.",
       "steps": [
         "From Chapter 2, take Billy's quests at the Thrillbilly Mud Club.",
         "Complete all five, then his final mission."
@@ -472,7 +475,7 @@
       "kind": "side",
       "missable": false,
       "count": 16,
-      "guide": "Deliver all 16 cars on Randy's Wish List, then his final mission. His strand starts in Chapter 3 and is a fetch list: each car on the list has to be found, stolen or bought and delivered. Check the list before you sell or scrap any rare car you find.",
+      "guide": "Deliver all 16 cars on Randy's Wish List, then his final mission. His strand opens in Chapter 3 and is a fetch list: each car on the list has to be found, stolen or bought and delivered. Check the list before you sell or scrap any rare car you find.",
       "steps": [
         "From Chapter 3, take Randy's Wish List.",
         "Deliver all 16 cars, then his final mission."
@@ -490,8 +493,7 @@
       "hidden": false,
       "kind": "side",
       "missable": false,
-      "count": null,
-      "guide": "Destroy the labs, then finish Tyrone's last quest. His strand is Jason-only and starts in Chapter 3 — switch to Jason to take his missions, and expect lab raids rather than fetch quests.",
+      "guide": "Destroy the labs, then finish Tyrone's last quest. His strand is Jason-only and opens in Chapter 3 — switch to Jason to take his missions, and expect lab raids rather than fetch quests.",
       "steps": [
         "As Jason, from Chapter 3, take Tyrone's quests.",
         "Destroy the labs, then complete his final mission."
@@ -509,9 +511,9 @@
       "hidden": false,
       "kind": "activity",
       "missable": true,
-      "missable_note": "After the early Chapter 1 mission Down to Earth, Lucia mentions meditation in the kitchen at Jason's house one morning and heads out to the balcony. Follow her, accept the prompt, and meditate there before leaving Chapter 1 — it cannot be done again afterwards, and it is not yet confirmed whether the trophy needs that first meditation. The other 17 spots stay available in free roam.",
+      "missable_note": "One morning after the early Chapter 1 mission Down to Earth, Lucia brings up meditation in the kitchen at Jason's house and walks out to the balcony. Follow her, take the prompt, and meditate there before Chapter 1 ends — there is no second chance, and it is still unconfirmed whether the trophy requires that first session. The other 17 spots remain open in free roam.",
       "count": 18,
-      "guide": "Meditate at all 18 Meditation Spots across Leonida. Do the balcony meditation with Lucia in Chapter 1 first (see the missable note) — it is the only one that can pass you by. The other 17 spots are marked once you learn the technique, and the 100% checklist only needs 15 of the 18, so finish the last three for this trophy during cleanup.",
+      "guide": "Meditate at every one of the 18 Meditation Spots across Leonida. Start with the balcony meditation with Lucia in Chapter 1 (see the missable note) — that one can pass you by. Once you know the technique the other 17 spots are marked for you, and the 100% checklist only asks for 15 of 18, so save the last three for this trophy during cleanup.",
       "steps": [
         "In Chapter 1, after Down to Earth: follow Lucia to the balcony at Jason's house and meditate when prompted.",
         "Learn the technique, then meditate at the other 17 marked spots across Leonida.",
@@ -531,7 +533,6 @@
       "hidden": false,
       "kind": "activity",
       "missable": false,
-      "count": null,
       "guide": "Hunt a unique animal for Bret. His strand is Jason-only; the exact animal is still being confirmed by the guide sites, so take Bret's hunting missions as they come and the target will be named in-game. Hunting also feeds Master of None and the 100-animals-studied checklist line — study animals through your binoculars whenever you meet a new species.",
       "steps": [
         "As Jason, take Bret's hunting missions.",
@@ -551,7 +552,7 @@
       "kind": "collectible",
       "missable": false,
       "count": 3,
-      "guide": "Complete three full Collectible Card sets — there are 18 sets in total. Cards are found across Leonida, in shops and in the world; the 100% checklist wants 15 of the 18 sets, so this trophy comes early on the way there. Finish the three easiest sets first and leave the rare cards for the 100% phase.",
+      "guide": "Complete three full Collectible Card sets — there are 18 sets in total. Cards turn up across Leonida, in shops and in the world; the 100% checklist wants 15 of the 18 sets, so this trophy arrives early on the way there. Finish the three easiest sets first and leave the rare cards for the 100% phase.",
       "steps": [
         "Collect cards across Leonida.",
         "Complete any three full sets."
@@ -607,7 +608,6 @@
       "hidden": true,
       "kind": "robbery",
       "missable": false,
-      "count": null,
       "guide": "Lose a four-star wanted level while playing with your partner, then escape the heat. The easy route: rob a bank vault, which instantly puts you at four stars, then break line of sight and leave the red heat zone on the map. One reliable escape is the train tunnel north of Ambrosia in Kelly County — police struggle to follow along the tracks and the helicopter loses sight of you. It often pops by itself during the vault robberies.",
       "steps": [
         "With your partner, reach a four-star wanted level (a bank vault robbery does it instantly).",
@@ -685,7 +685,6 @@
       "hidden": true,
       "kind": "misc",
       "missable": false,
-      "count": null,
       "guide": "Steal a departing passenger aircraft from Vice City International Airport and fly away. The easiest airliner is docked at terminals E3/E4 — board it, take off, and fly until you are about 1 km from the airport, when the trophy unlocks.",
       "steps": [
         "Go to VCIA, terminals E3/E4, and board the docked airliner.",
@@ -704,7 +703,6 @@
       "hidden": true,
       "kind": "misc",
       "missable": false,
-      "count": null,
       "guide": "Steal a Rhino military tank and use it in combat. The tanks sit at Mile Zero Air Station — drive in, take one, and put its cannon to work on whatever shoots at you on the way out.",
       "steps": [
         "Go to Mile Zero Air Station.",
@@ -723,11 +721,10 @@
       "hidden": true,
       "kind": "robbery",
       "missable": false,
-      "count": null,
       "guide": "Rob a jewelry store without triggering detection. You need the Snap Gun, which arrives in Chapter 3 — wait until then, scout the store, and keep the whole robbery quiet: no alarms, no witnesses calling it in, no cameras catching you.",
       "steps": [
         "Reach Chapter 3 and get the Snap Gun.",
-        "Pick a jewelry store and rob it without being detected."
+        "Scout a jewelry store, then rob it without being detected."
       ],
       "sources": [
         {"site": "Exophase / PSNProfiles (official list via the kit)", "title": "The official 55-trophy list, 2026-11-18", "url": null},
@@ -761,7 +758,6 @@
       "hidden": true,
       "kind": "robbery",
       "missable": false,
-      "count": null,
       "guide": "Rob an armored truck and escape. Trucks run set routes around Leonida — stop one, crack it open, take the cash and break away before the police box you in. It is a quick trophy once you learn a truck's route; pair it with a vault run and you can work on Hot Together at the same time.",
       "steps": [
         "Find an armored truck on its route.",
@@ -780,7 +776,6 @@
       "hidden": true,
       "kind": "exploration",
       "missable": false,
-      "count": null,
       "guide": "Explore all of Leonida and clear the fog from the entire map. There is no shortcut: drive, fly and sail into every corner until no fogged area is left. Do it gradually as the story takes you around the state, and finish the last blank patches in free roam after the ending.",
       "steps": [
         "Travel through every region of Leonida.",
@@ -819,7 +814,6 @@
       "kind": "exploration",
       "missable": false,
       "unsolved": true,
-      "count": null,
       "guide": "Have a cocktail with a view on Ocean Beach. The description is the whole clue, and no guide has confirmed the exact trigger yet: the working reading is to order a cocktail at a beachfront bar on Ocean Beach and stay for the view. If it does not pop, try another bar along the beachfront — and do not trust any method that cites no source.",
       "steps": [
         "Go to Ocean Beach.",
@@ -840,7 +834,6 @@
       "kind": "exploration",
       "missable": false,
       "unsolved": true,
-      "count": null,
       "guide": "Smash your way out of a vehicle showroom in classic style. No guide has confirmed the exact trigger yet: the working reading is to take a car inside a vehicle showroom and drive it straight out through the glass, the way the old games did it. If it does not pop, try a different showroom — and do not trust any method that cites no source.",
       "steps": [
         "Go to a vehicle showroom.",
@@ -880,7 +873,6 @@
       "hidden": true,
       "kind": "activity",
       "missable": false,
-      "count": null,
       "guide": "Max out the Strength stat for Jason and Lucia at the same time. Go to the gym together: while one character works out, the other trains automatically, so progress doubles. Keep both of them training until both bars are full.",
       "steps": [
         "Take Jason and Lucia to the gym together.",
@@ -919,7 +911,6 @@
       "kind": "misc",
       "missable": false,
       "unsolved": true,
-      "count": null,
       "guide": "The description hints at a second attempt, and no guide has confirmed the trigger yet. The honest reading: something in the game has to fail once and succeed on the second try — but which thing, nobody has pinned down. Treat this as one to watch: retry anything that fails, and do not trust a method that cites no source.",
       "steps": [
         "When something fails in the game, try it a second time.",
@@ -940,7 +931,6 @@
       "kind": "misc",
       "missable": false,
       "unsolved": true,
-      "count": null,
       "guide": "The description hints at something strange, and no guide has confirmed the trigger yet. The honest reading: somewhere in Leonida there is an odd event to witness — the kind of thing you stumble on while exploring. Keep exploring the map's strange corners (see The Goodtime State) and watch the guide sites for a confirmed trigger.",
       "steps": [
         "Explore Leonida's odd corners while clearing the map.",
@@ -961,7 +951,6 @@
       "kind": "misc",
       "missable": false,
       "unsolved": true,
-      "count": null,
       "guide": "Knock someone down with a melee drive-by. The precise method is still being confirmed, but the shape of it is clear from the description: drive past on a vehicle and land a melee hit that bowls the target over. Try it from a slow-moving car or bike with a melee weapon, and watch the guide sites for a confirmed method.",
       "steps": [
         "Get a melee weapon and a vehicle.",

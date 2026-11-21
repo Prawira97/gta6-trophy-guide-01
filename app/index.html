@@ -7,25 +7,77 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header id="top">
-  <div class="masthead">
-    <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; Leonida</p>
-    <h1>GTA VI Trophy Guide &amp; Tracker</h1>
-    <p class="subtitle">All 55 official trophies — 1 platinum, 2 gold, 6 silver, 46 bronze.
-    Every name, description and grade exactly as PlayStation publishes them,
-    with a guide in our own words that cites its sources. Works offline:
-    this page loads nothing from the network.</p>
-  </div>
-  <div id="progress-wrap" aria-label="Platinum progress">
-    <div id="progress-bar"><div id="progress-fill"></div></div>
-    <p id="progress-text">0 of 55 earned</p>
-    <p id="grade-counts"></p>
+<header class="masthead">
+  <p class="eyebrow">Grand Theft Auto VI &middot; PlayStation 5 &middot; Leonida</p>
+  <h1>GTA VI Trophy Guide &amp; Tracker</h1>
+  <p class="lede">All 55 official trophies — 1 platinum, 2 gold, 6 silver, 46 bronze.
+  Names, descriptions and grades exactly as PlayStation publishes them, each
+  with a guide written in our own words that names its sources. Fully offline:
+  this page makes no network request at all.</p>
+  <div class="progress" aria-label="Platinum progress">
+    <div class="track"><div id="fill"></div></div>
+    <p id="progressLine">0 of 55 earned</p>
+    <p id="gradeLine"></p>
   </div>
 </header>
 
-<section id="roadmap" aria-label="Roadmap to the platinum">
+<div class="toolbar" id="controls" aria-label="Tracker controls">
+  <label class="field">Search
+    <input id="q" type="search" placeholder="Trophy name or description…">
+  </label>
+  <label class="field">Grade
+    <select id="gradeSel">
+      <option value="all">All grades</option>
+      <option value="platinum">Platinum</option>
+      <option value="gold">Gold</option>
+      <option value="silver">Silver</option>
+      <option value="bronze">Bronze</option>
+    </select>
+  </label>
+  <label class="field">Kind
+    <select id="kindSel">
+      <option value="all">All kinds</option>
+      <option value="story">Story</option>
+      <option value="missable">Missable</option>
+      <option value="completion">Platinum &amp; 100%</option>
+      <option value="collectible">Collectibles</option>
+      <option value="activity">Activities</option>
+      <option value="side">Side quests</option>
+      <option value="robbery">Robberies</option>
+      <option value="exploration">Exploration</option>
+      <option value="money">Money &amp; property</option>
+      <option value="misc">Misc</option>
+    </select>
+  </label>
+  <label class="field">Status
+    <select id="statusSel">
+      <option value="all">All</option>
+      <option value="earned">Earned</option>
+      <option value="todo">Not yet earned</option>
+    </select>
+  </label>
+  <button id="spoilerBtn" type="button" aria-pressed="false">Spoilers: shown</button>
+  <button id="exportBtn" type="button">Export progress</button>
+  <label class="field file-field">Import progress
+    <input id="importInput" type="file" accept="application/json">
+  </label>
+  <button id="resetBtn" type="button">Reset</button>
+  <span id="toolbarCount" aria-live="polite"></span>
+</div>
+
+<main class="board">
+  <section class="checklist" aria-label="Trophy checklist">
+    <p id="shownCount"></p>
+    <ul id="rows"></ul>
+  </section>
+  <aside class="guide-panel" aria-label="Trophy guide">
+    <article id="guideCard"></article>
+  </aside>
+</main>
+
+<section class="roadmap" id="roadmap" aria-label="Roadmap to the platinum">
   <h2>Roadmap to the platinum — about 200 hours, one playthrough</h2>
-  <div class="roadmap-stats">
+  <div class="chips">
     <div><strong>4/10</strong><span>difficulty (PowerPyx)</span></div>
     <div><strong>~200 h</strong><span>to platinum</span></div>
     <div><strong>1</strong><span>playthrough needed</span></div>
@@ -36,13 +88,13 @@
   <div class="phases">
     <article class="phase">
       <h3>Phase 1 — Story &amp; side missions <span>60–80 h</span></h3>
-      <p>Play the story with Jason and Lucia. No gold medals are needed in
-      story missions, so enjoy the campaign — but do the optional missions
-      as they appear, scan new vehicles with the WAiNK app, and study new
-      animals through your binoculars from the start: 100% completion
-      later needs 200 of the 277 base vehicle models and 100 of the 255
-      animals, and everything you do before the ending already counts.</p>
-      <p class="phase-trophies">Unlocks on the way: the 12 story trophies, plus
+      <p>Play the story with Jason and Lucia. Story missions need no gold
+      medals, so enjoy the campaign — but take the optional missions as they
+      appear, scan new vehicles with the WAiNK app, and study new animals
+      through your binoculars from the start: 100% completion later needs
+      200 of the 277 base vehicle models and 100 of the 255 animals, and
+      everything you do before the ending already counts.</p>
+      <p class="phase-yield">Unlocks on the way: the 12 story trophies, plus
       Master of None, Whip It Good and the first side-character questlines.</p>
     </article>
     <article class="phase">
@@ -52,7 +104,7 @@
       portions only (see the table below). Every robbery, underwater
       discovery, shooting range, drone race and Bret quest is required;
       only 70 of the 80 Challenges are needed, so skip the nastiest ten.</p>
-      <p class="phase-trophies">Unlocks on the way: A Long Road (gold) and
+      <p class="phase-yield">Unlocks on the way: A Long Road (gold) and
       most collectible and activity trophies.</p>
     </article>
     <article class="phase">
@@ -60,13 +112,13 @@
       <p>Finish the final missions for Andy, Kenton, Billy, Randy and
       Tyrone, complete eight qualifying Strangers &amp; Freaks strands,
       then mop up whatever the checklist did not cover. Check the list
-      below for anything left, and the platinum — Vice Got a Price! —
+      above for anything left, and the platinum — Vice Got a Price! —
       pops.</p>
-      <p class="phase-trophies">Unlocks on the way: the five side-character
+      <p class="phase-yield">Unlocks on the way: the five side-character
       finales and Strangers &amp; Freaks (silver).</p>
     </article>
   </div>
-  <div id="missable-warning" role="alert">
+  <div class="callout" role="alert">
     <strong>⚠ The one trophy you can miss: Positive Mental Attitude.</strong>
     After the early Chapter 1 mission Down to Earth, Lucia mentions
     meditation in the kitchen at Jason&rsquo;s house one morning and heads
@@ -75,9 +127,9 @@
     is not yet confirmed whether the trophy needs it. Keep a manual save
     at the start and end of every chapter: there is no mission replay, and
     cheats disable trophies and saving.
-    <span class="warn-source">Source: KeenGamer; GameMapa / PowerPyx.</span>
+    <span class="callout-src">Source: KeenGamer; GameMapa / PowerPyx.</span>
   </div>
-  <details id="checklist-100">
+  <details class="hundred">
     <summary>What 100% completion actually asks for (A Long Road)</summary>
     <table>
       <thead><tr><th>Category</th><th>Required</th></tr></thead>
@@ -98,61 +150,11 @@
         <tr><td>Stunts / Challenges / Bret&rsquo;s Target Decks</td><td>300 of 397 / 70 of 80 / 15 of 15</td></tr>
       </tbody>
     </table>
-    <p class="table-source">Source: KeenGamer — GTA 6 Trophy Guide &amp; Platinum Roadmap.</p>
+    <p class="table-src">Source: KeenGamer — GTA 6 Trophy Guide &amp; Platinum Roadmap.</p>
   </details>
 </section>
 
-<div id="controls" aria-label="Tracker controls">
-  <label class="search-label">Search <input id="search" type="search" placeholder="Trophy name or description…"></label>
-  <label>Grade
-    <select id="grade-filter">
-      <option value="all">All grades</option>
-      <option value="platinum">Platinum</option>
-      <option value="gold">Gold</option>
-      <option value="silver">Silver</option>
-      <option value="bronze">Bronze</option>
-    </select>
-  </label>
-  <label>Kind
-    <select id="kind-filter">
-      <option value="all">All kinds</option>
-      <option value="story">Story</option>
-      <option value="missable">Missable</option>
-      <option value="completion">Platinum &amp; 100%</option>
-      <option value="collectible">Collectibles</option>
-      <option value="activity">Activities</option>
-      <option value="side">Side quests</option>
-      <option value="robbery">Robberies</option>
-      <option value="exploration">Exploration</option>
-      <option value="money">Money &amp; property</option>
-      <option value="misc">Misc</option>
-    </select>
-  </label>
-  <label>Status
-    <select id="status-filter">
-      <option value="all">All</option>
-      <option value="earned">Earned</option>
-      <option value="todo">Not yet earned</option>
-    </select>
-  </label>
-  <button id="spoiler-toggle" type="button" aria-pressed="false">Spoilers: shown</button>
-  <button id="export" type="button">Export progress</button>
-  <label class="import-label">Import progress <input id="import-file" type="file" accept="application/json"></label>
-  <button id="reset" type="button">Reset</button>
-  <span id="controls-progress" aria-live="polite"></span>
-</div>
-
-<main id="layout">
-  <section id="list-wrap" aria-label="Trophy checklist">
-    <p id="result-count"></p>
-    <ul id="trophy-list"></ul>
-  </section>
-  <aside id="detail" aria-label="Trophy guide">
-    <article id="detail-card"></article>
-  </aside>
-</main>
-
-<footer id="sources-note">
+<footer class="colophon">
   <p>Official names, descriptions and grades are shown as PlayStation
   publishes them (the kit&rsquo;s official list, as Exophase and
   PSNProfiles listed it). Every guide is written in our own words for
@@ -162,7 +164,7 @@
   2026 — their guides say so honestly instead of inventing a method.
   This guide is fan-made and unaffiliated with Rockstar Games; no
   Rockstar logo, artwork or game screenshot is used.</p>
-  <p id="save-note">Progress is saved in this browser only (localStorage).
+  <p>Progress is saved in this browser only (localStorage).
   Export it to keep a backup, or to move it to another browser.</p>
 </footer>
 

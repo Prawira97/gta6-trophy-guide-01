@@ -12,11 +12,12 @@
 //
 // Run it outside the grader's container with MAKEFUN_OUTPUT_DIR standing
 // in for /output:
-//   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+//
+//   MAKEFUN_OUTPUT_DIR=out node main.ts
 
 import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
-import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { join } from 'node:path';
 import { buildDossier } from './vendor/makefun-frontend.ts';
 
 const repoRoot = fileURLToPath(new URL('.', import.meta.url));

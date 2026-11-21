@@ -7,8 +7,8 @@
 // It sends the MIME types a browser needs and refuses any path outside
 // app/. A development convenience only, not a server for the internet.
 
-import { createReadStream, statSync } from 'node:fs';
 import { createServer } from 'node:http';
+import { readFile } from 'node:fs/promises';
 import { extname, join, normalize, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -20,47 +20,48 @@ const port = Number.isInteger(wanted) && wanted > 0 && wanted < 65536 ? wanted :
 
 const MIME_TYPES: Record<string, string> = {
   '.html': 'text/html; charset=utf-8',
+  '.css': 'text/css; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
   '.mjs': 'text/javascript; charset=utf-8',
-  '.css': 'text/css; charset=utf-8',
   '.json': 'application/json; charset=utf-8',
-  '.svg': 'image/svg+xml',
   '.png': 'image/png',
   '.jpg': 'image/jpeg',
   '.jpeg': 'image/jpeg',
-  '.webp': 'image/webp',
+  '.svg': 'image/svg+xml',
   '.ico': 'image/x-icon',
+  '.woff2': 'font/woff2',
+  '.webmanifest': 'application/manifest+json',
 };
 
-createServer((request, response) => {
-  let pathname: string;
+const server = createServer(async (request, response) => {
   try {
-    pathname = decodeURIComponent(new URL(request.url ?? '/', 'http://localhost').pathname);
+    let pathname = '/';
+    try {
+      pathname = decodeURIComponent(new URL(request.url ?? '/', 'http://localhost').pathname);
+    } catch {
+      response.writeHead(400);
+      response.end('bad request');
+      return;
+    }
+    if (pathname === '/') pathname = '/index.html';
+    const file = resolve(join(appRoot, normalize(pathname)));
+    if (file !== appRoot && !file.startsWith(appRoot + sep)) {
+      response.writeHead(403);
+      response.end('forbidden');
+      return;
+    }
+    const body = await readFile(file);
+    response.writeHead(200, {
+      'content-type': MIME_TYPES[extname(file).toLowerCase()] ?? 'application/octet-stream',
+      'content-length': body.length,
+    });
+    response.end(body);
   } catch {
-    response.writeHead(400).end('bad request');
-    return;
+    response.writeHead(404);
+    response.end('not found');
   }
-  if (pathname.endsWith('/')) pathname += 'index.html';
-  const file = resolve(join(appRoot, normalize(pathname)));
-  if (file !== appRoot && !file.startsWith(appRoot + sep)) {
-    response.writeHead(403).end('forbidden');
-    return;
-  }
-  let size: number;
-  try {
-    const stats = statSync(file);
-    if (!stats.isFile()) throw new Error('not a file');
-    size = stats.size;
-  } catch {
-    response.writeHead(404).end('not found');
-    return;
-  }
-  response.writeHead(200, {
-    'content-type': MIME_TYPES[extname(file).toLowerCase()] ?? 'application/octet-stream',
-    'content-length': size,
-    'cache-control': 'no-store',
-  });
-  createReadStream(file).pipe(response);
-}).listen(port, '127.0.0.1', () => {
-  console.log(`app/ is on http://localhost:${port}`);
+});
+
+server.listen(port, () => {
+  console.log(`gta6-trophy-guide-01: serving app/ on http://localhost:${port}/`);
 });
